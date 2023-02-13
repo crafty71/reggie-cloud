@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/reggie-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-category/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-dish-flavor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-dish/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-dishFlavor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-setMeal-dish/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-setMeal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reggie-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

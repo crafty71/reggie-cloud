@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a22edf1-ad00-4450-a1c4-13b70a1b713b" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/api/category/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/api/dish/DishApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/api/dishFlavor/dishFlavorApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/api/setMeal/setMealApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/api/setMealDish/SetMealDishApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/api/user/TestApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/api/user/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/config/RedisAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/shiro/realm/IhrmRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-api/src/main/java/com/reggie/shiro/session/CustomSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-category/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-category/src/main/java/com/reggie/category/CategoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-category/src/main/java/com/reggie/category/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-category/src/main/java/com/reggie/category/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-category/src/main/java/com/reggie/category/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-category/src/main/java/com/reggie/category/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-category/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-common/src/main/java/com/exception/Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-common/src/main/java/com/exception/ExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-common/src/main/java/com/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-common/src/main/java/com/reggie/ApiRestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-common/src/main/java/com/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-common/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish-flavor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish-flavor/src/main/java/com/reggie/dishFlavor/DishFlavorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish-flavor/src/main/java/com/reggie/dishFlavor/controller/DishFlavorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish-flavor/src/main/java/com/reggie/dishFlavor/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish-flavor/src/main/java/com/reggie/dishFlavor/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish-flavor/src/main/java/com/reggie/dishFlavor/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish-flavor/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/java/com/reggie/dish/DishApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/java/com/reggie/dish/client/CategoryFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/java/com/reggie/dish/client/FlavorFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/java/com/reggie/dish/controller/DishApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/java/com/reggie/dish/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/java/com/reggie/dish/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/java/com/reggie/dish/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-dish/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-gateway/src/main/java/com/reggie/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-gateway/src/main/java/com/reggie/gateway/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-gateway/src/main/java/com/reggie/gateway/config/SwaggerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-gateway/src/main/java/com/reggie/gateway/config/SwaggerHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-gateway/src/main/java/com/reggie/gateway/config/SwaggerResourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/dish/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/dish/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/dishFlavor/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/setMeal/SetMeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/setMeal/SetMealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/setMeal/setMealDto/SetMealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-model/src/main/java/com/reggie/user/userDto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal-dish/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal-dish/src/main/java/com/reggie/setMealDish/SetMealDishApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal-dish/src/main/java/com/reggie/setMealDish/controller/setMealDishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal-dish/src/main/java/com/reggie/setMealDish/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal-dish/src/main/java/com/reggie/setMealDish/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal-dish/src/main/java/com/reggie/setMealDish/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal-dish/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/src/main/java/com/reggie/setMeal/SetMealApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/src/main/java/com/reggie/setMeal/client/CategoryFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/src/main/java/com/reggie/setMeal/controller/SetMealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/src/main/java/com/reggie/setMeal/mapper/SetMealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/src/main/java/com/reggie/setMeal/service/SetMealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/src/main/java/com/reggie/setMeal/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-setMeal/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/ShiroConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/controller/TestFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/realm/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/java/com/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reggie-user/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2L60v2AR0VOv6OXLKoQkG8TQh3V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/coder/temp/wcdog-master/reggie-cloud/reggie-api/src/main/java/com/reggie",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2908046",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "d2f3561d0f1c61557d1d8d017add7925"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coder\temp\wcdog-master\reggie-cloud\reggie-api\src\main\java\com\reggie" />
+      <recent name="D:\coder\temp\wcdog-master\reggie-cloud\reggie-common\src\main\java\com" />
+      <recent name="D:\coder\temp\wcdog-master\reggie-cloud\reggie-gateway\src\main\java\com\reggie\gateway\config" />
+      <recent name="D:\coder\temp\wcdog-master\reggie-cloud\reggie-setMeal-dish\src\main\java\com\reggie\setMealDish\service\impl" />
+      <recent name="D:\coder\temp\wcdog-master\reggie-cloud\reggie-setMeal-dish\src\main\java\com\reggie\setMealDish\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.reggie.gateway.config" />
+      <recent name="com.reggie.setMeal.client" />
+      <recent name="com.reggie.realm" />
+      <recent name="com.reggie.shiro.realm" />
+      <recent name="com.reggie.shiro.session" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="Remote" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SetMealDishApplication">
+    <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="reggie-category" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.category.CategoryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.category.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DishApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie-dish" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.dish.DishApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.dish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DishFlavorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie-dish-flavor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.dishFlavor.DishFlavorApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.dishFlavor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="reggie-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetMealApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie-setMeal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.setMeal.SetMealApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.setMeal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetMealDishApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="reggie-setMeal-dish" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.setMealDish.SetMealDishApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.setMealDish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="reggie-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reggie.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SetMealDishApplication" />
+      <item itemvalue="Spring Boot.CategoryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.SetMealApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.DishFlavorApplication" />
+      <item itemvalue="Spring Boot.DishApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DishApplication" />
+        <item itemvalue="Spring Boot.DishFlavorApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.SetMealApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3a22edf1-ad00-4450-a1c4-13b70a1b713b" name="变更" comment="" />
+      <created>1675176452574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675176452574</updated>
+      <workItem from="1675176454139" duration="4619000" />
+      <workItem from="1675181178915" duration="184000" />
+      <workItem from="1675181370896" duration="861000" />
+      <workItem from="1675182244978" duration="1867000" />
+      <workItem from="1675252926672" duration="1512000" />
+      <workItem from="1675254545198" duration="1153000" />
+      <workItem from="1675255825384" duration="909000" />
+      <workItem from="1675256861714" duration="1535000" />
+      <workItem from="1675258535995" duration="2841000" />
+      <workItem from="1675261600428" duration="6037000" />
+      <workItem from="1675268087363" duration="6281000" />
+      <workItem from="1675325498448" duration="67000" />
+      <workItem from="1675339355782" duration="3652000" />
+      <workItem from="1675345115946" duration="1553000" />
+      <workItem from="1675346684729" duration="4564000" />
+      <workItem from="1675351380772" duration="732000" />
+      <workItem from="1675392822433" duration="161000" />
+      <workItem from="1675393243635" duration="4606000" />
+      <workItem from="1675411083806" duration="831000" />
+      <workItem from="1675602907718" duration="838000" />
+      <workItem from="1675603768372" duration="12328000" />
+      <workItem from="1675683557069" duration="10947000" />
+      <workItem from="1675694995984" duration="5879000" />
+      <workItem from="1675782829122" duration="449000" />
+      <workItem from="1675783917805" duration="7673000" />
+      <workItem from="1675868556319" duration="2201000" />
+      <workItem from="1675943451984" duration="1424000" />
+      <workItem from="1675952243828" duration="601000" />
+      <workItem from="1675952867949" duration="4073000" />
+      <workItem from="1675956970907" duration="555000" />
+      <workItem from="1675957537073" duration="1800000" />
+      <workItem from="1676043174134" duration="4802000" />
+      <workItem from="1676101381140" duration="2806000" />
+      <workItem from="1676113449696" duration="4795000" />
+      <workItem from="1676137156192" duration="507000" />
+      <workItem from="1676137674489" duration="4522000" />
+      <workItem from="1676142248638" duration="17000" />
+      <workItem from="1676253496545" duration="82000" />
+      <workItem from="1676254605126" duration="332000" />
+      <workItem from="1676254967437" duration="8775000" />
+      <workItem from="1676271967959" duration="8585000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
